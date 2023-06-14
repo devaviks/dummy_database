@@ -1,11 +1,11 @@
-class ProductDataModel {
-  final int id; // Change the type to int
+class WishlistDataModel {
+  final int id;
   final String name;
   final String description;
   final double price;
   final String imageUrl;
 
-  ProductDataModel({
+  WishlistDataModel({
     required this.id,
     required this.name,
     required this.description,

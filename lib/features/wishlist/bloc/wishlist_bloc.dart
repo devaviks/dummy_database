@@ -6,6 +6,7 @@ import 'package:meta/meta.dart';
 
 import '../../../data/wishlist_items.dart';
 import '../../home/models/home_product_data_model.dart';
+import '../../home/models/wishlist_data_model.dart';
 
 part 'wishlist_event.dart';
 part 'wishlist_state.dart';
@@ -27,3 +28,4 @@ class WishlistBloc extends Bloc<WishlistEvent, WishlistState> {
     emit(WishlistSuccessState(wishlistItems: wishlistItems));
   }
 }
+
